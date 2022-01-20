@@ -1,7 +1,7 @@
 package hw04;
 
 
-public class HomeWork4 {
+public class HomeWork4 { 
 	public String myinfo;
 	public String name = (" Faid Hossain");
 	public char gender = 'm';
