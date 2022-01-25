@@ -1,6 +1,4 @@
 package hw04;
-
-
 public class HomeWork4 { 
 	public String myinfo;
 	public String name = (" Faid Hossain");
@@ -17,8 +15,6 @@ public class HomeWork4 {
 		HomeWork4 homeWork = new HomeWork4();
 
 		System.out.println("My Name: " + homeWork.name + ", My Hights: " + homeWork.heights + ", My Age: "
-				+ homeWork.age + ", My carpayment $ " + homeWork.carpayment + ", My weight:" + homeWork.weight);
-
+				+ homeWork.age + ", My carpayment $" + homeWork.carpayment + ", My weight:" + homeWork.weight);
 	}
-
-}
+	}

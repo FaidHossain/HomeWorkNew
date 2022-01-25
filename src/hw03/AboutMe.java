@@ -1,8 +1,6 @@
 package hw03;
-
-
 public class AboutMe {
-	public String myinfo;// This is decleared variable
+	public String myinfo;// This is declared variable
 	public String name = ("Faid Hossain");
 	public char gender = 'M';
 	public double height = 5.6; // Here height 5.6 is initialize
@@ -25,7 +23,5 @@ public class AboutMe {
 		System.out.println("My phonenumber : " + "" + aboutMe1.phonenumber + "");
 		System.out.println("My citizenship : " + "" + aboutMe1.citizenship + "");
 		System.out.println("My age : " + "" + aboutMe1.age + "");
-
 	}
-
-}
+	}

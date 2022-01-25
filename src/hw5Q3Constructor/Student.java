@@ -8,7 +8,7 @@ public class Student {
 	public float grade;
 
 	public Student() {
-		System.err.println();
+		System.out.println();
 	}
 	public Student(String stName, int stID, char sex, boolean isProgrammer, float grade) {
 		this.stName = stName;
@@ -17,8 +17,7 @@ public class Student {
 		this.isProgrammer = isProgrammer;
 		this.grade = grade;
 
-		System.err.println("stName: " + stName + "stID: " + stID + "sex: " + sex + "isProgrammer: " + isProgrammer
+		System.out.println("stName: " + stName + "stID: " + stID + "sex: " + sex + "isProgrammer: " + isProgrammer
 				+ "grade: " + grade + "");
 	}
-
-}
+	}
