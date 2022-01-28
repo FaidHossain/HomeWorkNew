@@ -9,4 +9,4 @@ public class MySelf {
 	}
 }
 
-//practice new
+
