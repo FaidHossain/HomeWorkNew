@@ -1,6 +1,5 @@
 package hw7Q2UseOfNestedIf;
 
-import java.security.GeneralSecurityException;
 import java.util.Scanner;
 
 public class DiabeticCondition {
@@ -13,10 +12,10 @@ public class DiabeticCondition {
 		} else {
 			if (hbga1c < 5.7) {
 				System.out.println("I am a prediabetic patient");
-			} else if (hbga1c < 5.7) {
+			} else if (hbga1c >= 5.7) {
 				System.out.println("I am a healthy person");
-				scanner.close();
 			}
 		}
+		scanner.close();
 	}
 }
