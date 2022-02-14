@@ -6,4 +6,11 @@ public interface Hospital {
 	public void sugeryRoom();
 
 	public void cafeteria();
+	
+	public void morgue();
+	
+	public static void pharmacy() {
+	System.out.println();
+	
+	}
 }

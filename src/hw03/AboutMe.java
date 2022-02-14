@@ -1,6 +1,6 @@
 package hw03;
 public class AboutMe {
-	public String myinfo;// This is declared variable
+	public static String myinfo;// This is declared variable
 	public String name = ("Faid Hossain");
 	public char gender = 'M';
 	public double height = 5.6; // Here height 5.6 is initialize

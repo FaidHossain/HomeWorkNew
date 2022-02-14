@@ -1,12 +1,12 @@
 package hw9Q3Abstraction;
 
-public class ColumbiaUniversity {
-		public static void main(String[] args) {
-		public abstract  void chemistry(); {
-		public void biology(); 
-	
-		System.out.println();
-		}	
+public class ColumbiaUniversity extends MedicalSchool {
+	public abstract void chemistry();
+
+	public void biology() {
+
 	}
 }
-// Inside the regular class can not create Abstract class
+
+// Inside regular class, abstract "keyword" can not be instentied  
+// Inside the regular class can not extends Abstract class
